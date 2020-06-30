@@ -1,0 +1,9 @@
+.pick {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  scroll-snap-align: start;
+  background-color: gray;
+  border: solid 1px black;
+}

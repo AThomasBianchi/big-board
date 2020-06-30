@@ -31,14 +31,14 @@ let pickOrder = [
   BUZZ
 ];
 
-function PickData(team) {
+function Pick(team) {
   this.team = team;
   this.position = null;
   this.player = null
 }
 
-const oddRnd = pickOrder.map(tm => new PickData(tm));
+const oddRnd = pickOrder.map(tm => new Pick(tm));
 const evenRnd = [...oddRnd].reverse();
 const twoRnds = [[...oddRnd], [...evenRnd]];
 
-export const picks = [].concat(twoRnds, twoRnds, twoRnds, twoRnds, twoRnds, twoRnds, twoRnds);
+export const picks = [...Array(8)].flatMap(_ => twoRnds);

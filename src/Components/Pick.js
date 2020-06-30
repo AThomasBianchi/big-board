@@ -1,8 +1,9 @@
 import React from 'react';
+import './Pick.css';
 
 const Pick = props => {
   return (
-    <div>
+    <div className="pick" >
       <div>{props.pick.team}</div>
       <div>{props.roundNo}:{props.roundPick}</div>
       <div>{props.pickNo}</div>
