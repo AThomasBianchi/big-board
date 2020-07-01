@@ -2,8 +2,39 @@
   width: 100%;
   height: 20vh;
   display: flex;
-  flex-direction: column;
   scroll-snap-align: start;
+}
+
+.pick__round-spacing {
+  width: 15%
+}
+
+.pick__team-info {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
   background-color: gray;
   border: solid 1px black;
 }
+
+.pick__number-info {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+}
+
+.pick__number-info div {
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pick__number-round {
+  background-color: green;
+}
+
+.pick__number-overall {
+  background-color: red;
+}
+

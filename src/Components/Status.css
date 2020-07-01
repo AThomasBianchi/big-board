@@ -1,0 +1,15 @@
+.status {
+  /* position: fixed; */
+  width: 100%;
+  height: 10vh;
+  display: flex;
+}
+
+.status__up-now {
+  flex-grow: 1;
+}
+
+.status__on-deck {
+  flex-grow: 0;
+  font-size: 10px;
+}

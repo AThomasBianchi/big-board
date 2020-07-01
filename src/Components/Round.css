@@ -8,10 +8,12 @@
   position: sticky;
   top: 0;
   text-align: center;
+  width: 15vw;
 }
 
 .round__label-container {
-  width: 20%;
+  /* width: 15vw; */
+  width: 0;
 }
 
 .round__pick-container {
