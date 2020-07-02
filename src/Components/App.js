@@ -15,6 +15,7 @@ const App = () =>  {
   return (
     <div className="App">
       {/* Order */}
+      {/* Team */}
       <Status
         pick={pick + 1}
         now={now}

@@ -4,6 +4,9 @@ import './Status.css';
 const Status = props => {
   return (
     <div className="status">
+      <div className="status_time">
+        
+      </div>
       <div className="status__up-now">
         <div>
           Pick: {props.pick}
