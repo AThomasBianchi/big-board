@@ -12,11 +12,13 @@ const BigBoard = () => {
         return (
           <Round
             round={roundNo}
+            key={roundNo}
           >
             {round.map((pick, pckI) => {
               const pickNo = rndI * 14 + pckI + 1;
               return (
-                <Pick key={pickNo}
+                <Pick
+                  key={pickNo}
                   pick={pick}
                   pickNo={pickNo}
                   roundNo={roundNo}

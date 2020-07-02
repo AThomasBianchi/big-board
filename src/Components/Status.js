@@ -13,11 +13,13 @@ const Status = props => {
         </div>
       </div>
       <div className="status__on-deck">
-        <div>
-          Next: {props.next}
+        <div className="status__next">
+          <div>Next:</div>
+          <div>{props.next}</div>
         </div>
-        <div>
-          Then: {props.then}
+        <div className="status__soon">
+          <div>Then:</div>
+          <div>{props.then}</div>
         </div>
       </div>
     </div>
