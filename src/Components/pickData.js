@@ -15,20 +15,20 @@ const BUZZ = 'Buzzards';
 
 
 let pickOrder = [
-  RODS,
-  MUDS,
-  FISH,
-  RAFT,
   ROAD,
-  CITY,
-  GERS,
-  TOBA,
   RYNO,
-  NECK,
-  WWYC,
-  MAHI,
   SACK,
-  BUZZ
+  GERS,
+  NECK,
+  RODS,
+  WWYC,
+  RAFT,
+  MAHI,
+  CITY,
+  FISH,
+  MUDS,
+  BUZZ,
+  TOBA,
 ];
 
 function Pick(team) {
