@@ -1,37 +1,6 @@
-:root {
-  --color-one: #011a36;
-  --color-two: #a40808;
-}
 
-.round {
-  width: 100%;
-  display: flex;
-}
 
-.round:nth-of-type(2n) {
-  background-color: var(--color-one);
-}
+@media screen and (min-width: 768px) {
 
-.round:nth-of-type(2n+1) {
-  background: var(--color-two);
-}
 
-.round__label {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  text-align: center;
-  width: 15vw;
-  color: white;
-  font-size: 1rem;
-  padding-top: 10px;
-}
-
-.round__label-container {
-  /* width: 15vw; */
-  width: 0;
-}
-
-.round__pick-container {
-  width: 100%;
 }

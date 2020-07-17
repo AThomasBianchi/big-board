@@ -3,3 +3,11 @@
   scroll-snap-type: y mandatory;
   height: 90vh;
 }
+
+@media screen and (min-width: 768px) {
+
+  .big-board {
+    scroll-snap-type: none;
+    height: 100vh;
+  }
+}

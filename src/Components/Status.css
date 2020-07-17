@@ -25,3 +25,9 @@
 .status__next, .status__soon {
 
 }
+
+@media screen and (min-width: 768px) {
+  .status {
+    display: none;
+  }
+}
