@@ -4,6 +4,9 @@ import { picks } from './pickData';
 
 import BigBoard from './BigBoard';
 import Status from './Status';
+import Info from './Info';
+import './App.css';
+
 
 const App = () =>  {
   const [pick, setPick] = useState(0);
@@ -13,17 +16,16 @@ const App = () =>  {
   const then = pickOrder[pick + 2].team;
 
   return (
-    <div className="App">
-      {/* Order */}
-      {/* Team */}
+    <div className="app-container">
+
       <Status
         pick={pick + 1}
         now={now}
         next={next}
         then={then}
       />
+      <Info />
       <BigBoard />
-      {/* Key */}
     </div>
   );
 }
