@@ -1,6 +1,12 @@
+@media screen and (min-width: 1024px) {
 
+  .round {
+    display: flex;
+    flex-direction: row;
+  }
 
-@media screen and (min-width: 768px) {
-
-
+  .round:nth-of-type(2n) {
+    flex-direction: row-reverse;
+  }
+  
 }

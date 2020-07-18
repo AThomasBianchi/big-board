@@ -18,13 +18,13 @@ const App = () =>  {
   return (
     <div className="app-container">
 
-      <Status
+      {/* <Status
         pick={pick + 1}
         now={now}
         next={next}
         then={then}
-      />
-      <Info />
+      /> */}
+      {/* <Info /> */}
       <BigBoard />
     </div>
   );
