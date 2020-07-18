@@ -1,9 +1,11 @@
+
+
 @media screen and (min-width: 1024px) {
 
   .pick {
-    width: 50px;
-    max-width: 50px;
-    min-width: 50px;
+    width: calc(95% / 14);
+    max-width: calc(95% / 14);
+    min-width: calc(95% / 14);
   }
 
 }
