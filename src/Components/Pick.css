@@ -6,6 +6,7 @@
     width: calc(95% / 14);
     max-width: calc(95% / 14);
     min-width: calc(95% / 14);
+    border: 1px solid black;
   }
 
 }
