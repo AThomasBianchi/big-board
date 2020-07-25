@@ -9,7 +9,6 @@
   .big-board {
     height: 100vh;
     max-height: 100%;
-    /* width: 50%; */
   }
   
 }
@@ -17,6 +16,7 @@
 @media screen and (min-width: 1024px) {
 
   .big-board {
+    overflow: unset;
     height: unset;
     width: 200vw;
   }
